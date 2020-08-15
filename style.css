@@ -1,0 +1,38 @@
+
+
+
+
+
+
+/* Home page header 
+.homeheader{
+    text-align: center;
+    height: 1000px;
+    line-height: 500px;
+    background-color: brown;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    color: black;
+    
+}
+ */
+
+img{
+    width: 175px;
+    height: 200px;
+    float: left;
+}
+
+.sets{
+    font-size: 1.45rem;
+}
+
+
+
+ /* portfolio image of me under homeheader 
+.image{
+     background: url(nice2.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+} 
