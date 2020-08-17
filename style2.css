@@ -8,9 +8,11 @@
 }
 
 .header{
-height: 3rem;
-background-color: goldenrod;
-font-size: 2rem;
+    height: 75px;
+    background-color: goldenrod;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
 }
 
  /* .left-column{ 
@@ -79,4 +81,48 @@ font-size: 1.25rem;
     background-color: brown;
     flex: 1;
     padding-left: 1rem;
+}
+.role{
+        
+}
+
+.topnav{
+    color: black;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    padding-left: 250px;
+}
+
+li {
+    margin: 15px;
+    font-size: 1.50rem;
+}
+
+.myName {
+    padding: 15px;
+    margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.left-columnP{
+    width: 400px;
+}
+
+.screenshot{
+    display: flex;
+    width: 375px;
+    height: 250px;
+    flex-flow: column;
+    align-items: center;
+}
+
+.SC1{
+    margin-bottom: 2rem;
+    margin-top: 6rem;
 }
